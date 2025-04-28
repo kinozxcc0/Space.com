@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Space.com - Gallery</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="logo"><a href="index.html"><span class="logo-circle"></span>Space.com</a></div>
+				<ul class="menu">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="Explore/template.html" class="nav-link"> Solar System </a></li>
+				</ul>
+				<div class="menu-btn">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section class="gallery-section section-padding" id="gallery">
+		<div class="container">
+			<div class="section-title">
+				<h1 class="title">Gallery</h1>
+				<h2 class="subtitle">Explore the Beauty of our Universe</h2>
+			</div>
+			<div class="row">
+				<div class="product-item" onclick="showImage('pic3.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic3.png" alt="Image 1">
+						</div>
+						<div class="card-name"><p>Moon</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic1.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic1.png" alt="Image 2">
+						</div>
+						<div class="card-name"><p>Saturn</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic2.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic2.png" alt="Image 3">
+						</div>
+						<div class="card-name"><p>Earth</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic4.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic4.png" alt="Image 4">
+						</div>
+						<div class="card-name"><p>Galaxy</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic5.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic5.png" alt="Image 5">
+						</div>
+						<div class="card-name"><p>Astronaut</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic6.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic6.png" alt="Image 6">
+						</div>
+						<div class="card-name"><p>Starry Night</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic7.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic7.png" alt="Image 7">
+						</div>
+						<div class="card-name"><p>Meteor</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic8.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic8.png" alt="Image 8">
+						</div>
+						<div class="card-name"><p>Black Hole</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic9.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic9.png" alt="Image 9">
+						</div>
+						<div class="card-name"><p>Supernova</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic10.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic10.png" alt="Image 10">
+						</div>
+						<div class="card-name"><p>Space Shuttle</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic11.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic11.png" alt="Image 11">
+						</div>
+						<div class="card-name"><p>Quasar</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic12.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic12.png" alt="Image 12">
+						</div>
+						<div class="card-name"><p>Stardust</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic13.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic13.png" alt="Image 13">
+						</div>
+						<div class="card-name"><p>Dark Matter</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic14.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic14.png" alt="Image 14">
+						</div>
+						<div class="card-name"><p>Pleiades</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic15.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic15.png" alt="Image 15">
+						</div>
+						<div class="card-name"><p>Satellite</p></div>
+					</div>
+				</div>
+				<div class="product-item" onclick="showImage('pic16.png')">
+					<div class="product-item-inner">
+						<div class="card-img">
+							<img src="pic16.png" alt="Image 16">
+						</div>
+						<div class="card-name"><p>Sun</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="section-padding">
+		<div class="container">
+			<p>&copy; 2025 Space.com . All rights reserved.</p>
+		</div>
+	</footer>
+
+	<div class="fullscreen-img" id="fullscreenImg" onclick="closeImage()">
+		<img id="imgDisplay" src="" alt="Fullscreen Image">
+	</div>
+
+	<script>
+		function showImage(src) {
+			document.getElementById('imgDisplay').src = src;
+			document.getElementById('fullscreenImg').style.display = 'flex';
+		}
+
+		function closeImage() {
+			document.getElementById('fullscreenImg').style.display = 'none';
+		}
+	</script>
+</body>
+</html>
